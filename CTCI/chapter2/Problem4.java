@@ -1,4 +1,4 @@
-package chapter2;
+package  CTCI.chapter2;
 
 /**
  * Created by craigjohnson on 9/3/16.
