@@ -9,10 +9,10 @@ import java.util.stream.Collector;
  */
 public class Problem4 {
     public static void main(String[] args) {
-        System.out.println(palindromPermutation("craig"));
+        System.out.println(palindromePermutation("craig"));
     }
 
-    public static boolean palindromPermutation(String s) {
+    private static boolean palindromePermutation(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
         Character ch = null;
         Integer count = null;
