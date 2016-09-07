@@ -16,7 +16,6 @@ public class Problem5 {
         int[] arr = {4,5,6,5};
         System.out.println(addLists(l1, l2));
         System.out.println(addListForward(l1, l2));
-        System.out.println(twoSum(arr, 10)[1]);
     }
 
     public static int addLists(Node l1, Node l2) {
@@ -66,4 +65,5 @@ public class Problem5 {
         return numOne + numTwo;
 
     }
+
 }
