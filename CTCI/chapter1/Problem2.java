@@ -39,10 +39,11 @@ public class Problem2 {
 
     private static void handleChar(HashMap<Character, Integer> map, Character ch, boolean posNeg) {
         int val = posNeg ? 1 : -1;
-        if (map.get(ch) == null) {
+        Integer num = map.get(ch);
+        if (num == null) {
             map.put(ch, val);
         } else {
-            map.put(ch, map.get(ch) + val);
+            map.put(ch, num + val);
         }
     }
 
